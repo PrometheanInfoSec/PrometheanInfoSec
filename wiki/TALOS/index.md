@@ -16,6 +16,13 @@ latest release!
 
 ##Documentation
 
+- [Basic Usage](basic_usage.md)
+- [Running a Honeyport](running_a_honeyport.md)
+- [Aliases](aliases.md)
+- [Backgrounding Modules](background_modules.md)
 - [Module Building](module_building.md)
 - [Phantom](phantom.md)
 - [Scripting](scripting.md)
+- [Advanced Scripting](advanced_scripting.md)
+- [Tripcodes](tripcodes.md)
+

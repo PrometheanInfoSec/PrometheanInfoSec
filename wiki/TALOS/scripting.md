@@ -25,3 +25,55 @@ Here is an example running one of the built in scripts.
 python talos.py --script scripts/honeyport_basic_445
 ```
 
+##Basic Scripting
+TALOS is at its most basic level, simply an interpreter.  It takes in commands from you the user via the prompt, and converts those commands into some sort of output based on the rules specified within the framework.  Ex.  If you ask TALOS for help, you will get this response:
+
+`TALOS>>>` **`help`**
+
+		# Available commands
+		#  1) help
+		#     A) help <module>
+		#     B) help <command>
+		#  2) list
+		#     A) list modules
+		#     B) list variables
+		#     C) list commands
+		#     D) list jobs
+		#     E) list inst_vars
+		#  3) module
+		#     A) module <module>
+		#  4) set
+		#     A) set <variable> <value>
+		#  5) home
+		#  6) query
+		#     A) query <sqlite query>
+		#  7) read
+		#     A) read notifications
+		#     B) read old
+		#  8) purge
+		#     A) purge log
+		#  9) invoke
+		#     A) invoke <filename>
+		#  10) update
+		#  99) exit
+
+
+One thing that you can do with TALOS to make your life even easier, is to script up certain functions.  
+
+For example, if you find yourself constantly needing to launch a honeyport (simple example) you can write all the commands out to a script, and then simply call that script to perform the task.  
+
+To launch a honeyport on port 445 we would write out a script that looks like this:
+
+		load local/honeyports/basic
+		set port 445
+		run -j
+
+We then have two choices for launching this script.
+
+First, we can launch this script when we launch TALOS by specifying the `--script` option.  Like so:
+
+`/opt/talos#` **`./talos.py --script=/path/to/my/script`**
+
+Or, if we're already inside the TALOS interpreter, we can launch the script using the invoke command.
+
+`TALOS>>>` **`invoke /path/to/my/script`**
