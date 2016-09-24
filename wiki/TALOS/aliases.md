@@ -1,4 +1,4 @@
-*Aliases**
+#Aliases + Autocomplete
 
 TALOS comes with many useful features to assist you.  One of those features that is included to make your life easier and your network operations faster is the combination of aliases and autocomplete.
 

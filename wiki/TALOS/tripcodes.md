@@ -1,3 +1,5 @@
+#Tripcodes
+
 TALOS comes with a useful automation feature that allows you to launch scripts in response to the triggering of modules on your network.  
 
 This functions using something called "tripcodes".  Certain modules can accept a tripcode as a variable before they're launched.  An example of a module with such a capability is local/honeyports/basic.

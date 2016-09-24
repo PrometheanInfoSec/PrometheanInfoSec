@@ -1,3 +1,5 @@
+#Backgrounding Modules -- Reading Notifications
+
 ome modules in TALOS are written to be able to send notifications back to the command console.  This might can be incredibly useful in detecting and thwarting an attack on your network.  
 
 One of the modules capable of sending notifications back to the command console is the module used in the previous example [Example 1: Running a Honeypot] "local/honeyports/basic".

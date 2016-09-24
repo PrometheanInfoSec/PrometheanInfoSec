@@ -1,3 +1,5 @@
+#Basic Usage
+
 To run the script, first cd to the TALOS directory.
 
 `~$` **`cd /opt/TALOS`**

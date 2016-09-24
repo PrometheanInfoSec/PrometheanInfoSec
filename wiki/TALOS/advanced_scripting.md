@@ -1,3 +1,5 @@
+#Advanced Scripting
+
 S as a project is still in its infancy.  As such, there isn't a ton of documentation to cover the new features constantly being added to the framework.  In this section we will briefly touch on some of the features that were just added at the time of this document's publication.
 
 **Variables**
