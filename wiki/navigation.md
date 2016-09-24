@@ -3,7 +3,7 @@
   -- Do NOT remove the leading `#` character.
   -->
 
-# Your wiki name
+# Promethean Info Sec
 
 
 <!--
@@ -20,7 +20,6 @@
   -->
 
 [About](pages/about.md)
-[Download](pages/download.md)
 
 <!-- A more complex navigation example: ----------------------------------------
 

@@ -1,13 +1,12 @@
-# It works! ;-)
+# Promethean Info Sec -- Project Wiki
+
+This site contains the documentation for all of our projects.  Many projects have their own documentation within their repo.  But you can find it all here for your convenience.
 
 
-## Section 1
+## TALOS
+TALOS is an Active Defense framework built to help you keep your networks truly safe. 
 
-Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Cras mattis consectetur purus sit amet fermentum. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Sed posuere consectetur est at lobortis.
+## OpenBAC
 
+OpenBAC is an open source implementation of the Ball and Chain password representation format.  You can use it to keep your stored passwords completely safe.  
 
-## Section 2
-
-Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec ullamcorper nulla non metus auctor fringilla. Cras mattis consectetur purus sit amet fermentum. Donec ullamcorper nulla non metus auctor fringilla. Cras justo odio, dapibus ac facilisis in, egestas eget quam.
-
-Vestibulum id ligula porta felis euismod semper. Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.
